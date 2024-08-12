@@ -1,0 +1,942 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\SampleProject.API\\SampleProject.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\BuildingBlocks\\BuildingBlocks.API\\BuildingBlocks.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\BuildingBlocks\\BuildingBlocks.API\\BuildingBlocks.API.csproj",
+        "projectName": "BuildingBlocks.API",
+        "projectPath": "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\BuildingBlocks\\BuildingBlocks.API\\BuildingBlocks.API.csproj",
+        "packagesPath": "C:\\Users\\NTG\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\BuildingBlocks\\BuildingBlocks.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\NTG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\BuildingBlocks\\BuildingBlocks.Application\\BuildingBlocks.Application.csproj": {
+                "projectPath": "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\BuildingBlocks\\BuildingBlocks.Application\\BuildingBlocks.Application.csproj"
+              },
+              "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\BuildingBlocks\\BuildingBlocks.Infrastructure\\BuildingBlocks.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\BuildingBlocks\\BuildingBlocks.Infrastructure\\BuildingBlocks.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Asp.Versioning.Http": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Asp.Versioning.Mvc.ApiExplorer": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "AspNetCore.HealthChecks.UI.Client": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "CaptchaGen.NetCore": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            },
+            "Consul": {
+              "target": "Package",
+              "version": "[1.7.14.3, )"
+            },
+            "Elastic.Serilog.Sinks": {
+              "target": "Package",
+              "version": "[8.11.1, )"
+            },
+            "Hangfire.AspNetCore": {
+              "target": "Package",
+              "version": "[1.8.14, )"
+            },
+            "Hangfire.MemoryStorage": {
+              "target": "Package",
+              "version": "[1.8.1.1, )"
+            },
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Diagnostics.HealthChecks": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.Extensions.Localization": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.Extensions.Localization.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Serilog.Sinks.Elasticsearch": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "prometheus-net.AspNetCore": {
+              "target": "Package",
+              "version": "[8.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\BuildingBlocks\\BuildingBlocks.Application\\BuildingBlocks.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\BuildingBlocks\\BuildingBlocks.Application\\BuildingBlocks.Application.csproj",
+        "projectName": "BuildingBlocks.Application",
+        "projectPath": "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\BuildingBlocks\\BuildingBlocks.Application\\BuildingBlocks.Application.csproj",
+        "packagesPath": "C:\\Users\\NTG\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\BuildingBlocks\\BuildingBlocks.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\NTG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\BuildingBlocks\\BuildingBlocks.Domain\\BuildingBlocks.Domain.csproj": {
+                "projectPath": "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\BuildingBlocks\\BuildingBlocks.Domain\\BuildingBlocks.Domain.csproj"
+              },
+              "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\BuildingBlocks\\BuildingBlocks.Resources\\BuildingBlocks.Resources.csproj": {
+                "projectPath": "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\BuildingBlocks\\BuildingBlocks.Resources\\BuildingBlocks.Resources.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.1, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.9.1, )"
+            },
+            "Humanizer.Core": {
+              "target": "Package",
+              "version": "[2.14.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.FeatureManagement": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[8.4.1, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.Filters": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\BuildingBlocks\\BuildingBlocks.Domain\\BuildingBlocks.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\BuildingBlocks\\BuildingBlocks.Domain\\BuildingBlocks.Domain.csproj",
+        "projectName": "BuildingBlocks.Domain",
+        "projectPath": "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\BuildingBlocks\\BuildingBlocks.Domain\\BuildingBlocks.Domain.csproj",
+        "packagesPath": "C:\\Users\\NTG\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\BuildingBlocks\\BuildingBlocks.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\NTG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\BuildingBlocks\\BuildingBlocks.Infrastructure\\BuildingBlocks.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\BuildingBlocks\\BuildingBlocks.Infrastructure\\BuildingBlocks.Infrastructure.csproj",
+        "projectName": "BuildingBlocks.Infrastructure",
+        "projectPath": "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\BuildingBlocks\\BuildingBlocks.Infrastructure\\BuildingBlocks.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\NTG\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\BuildingBlocks\\BuildingBlocks.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\NTG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\BuildingBlocks\\BuildingBlocks.Domain\\BuildingBlocks.Domain.csproj": {
+                "projectPath": "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\BuildingBlocks\\BuildingBlocks.Domain\\BuildingBlocks.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\BuildingBlocks\\BuildingBlocks.Resources\\BuildingBlocks.Resources.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\BuildingBlocks\\BuildingBlocks.Resources\\BuildingBlocks.Resources.csproj",
+        "projectName": "BuildingBlocks.Resources",
+        "projectPath": "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\BuildingBlocks\\BuildingBlocks.Resources\\BuildingBlocks.Resources.csproj",
+        "packagesPath": "C:\\Users\\NTG\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\BuildingBlocks\\BuildingBlocks.Resources\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\NTG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\SampleProject.API\\SampleProject.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\SampleProject.API\\SampleProject.API.csproj",
+        "projectName": "SampleProject.API",
+        "projectPath": "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\SampleProject.API\\SampleProject.API.csproj",
+        "packagesPath": "C:\\Users\\NTG\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\SampleProject.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\NTG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\BuildingBlocks\\BuildingBlocks.API\\BuildingBlocks.API.csproj": {
+                "projectPath": "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\BuildingBlocks\\BuildingBlocks.API\\BuildingBlocks.API.csproj"
+              },
+              "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\SampleProject.Application\\SampleProject.Application.csproj": {
+                "projectPath": "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\SampleProject.Application\\SampleProject.Application.csproj"
+              },
+              "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\SampleProject.Infrastructure\\SampleProject.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\SampleProject.Infrastructure\\SampleProject.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Hangfire.SqlServer": {
+              "target": "Package",
+              "version": "[1.8.14, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.19.6, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.8.1, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\SampleProject.Application\\SampleProject.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\SampleProject.Application\\SampleProject.Application.csproj",
+        "projectName": "SampleProject.Application",
+        "projectPath": "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\SampleProject.Application\\SampleProject.Application.csproj",
+        "packagesPath": "C:\\Users\\NTG\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\SampleProject.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\NTG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\BuildingBlocks\\BuildingBlocks.Application\\BuildingBlocks.Application.csproj": {
+                "projectPath": "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\BuildingBlocks\\BuildingBlocks.Application\\BuildingBlocks.Application.csproj"
+              },
+              "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\SampleProject.Domain\\SampleProject.Domain.csproj": {
+                "projectPath": "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\SampleProject.Domain\\SampleProject.Domain.csproj"
+              },
+              "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\SampleProject.Resources\\SampleProject.Resources.csproj": {
+                "projectPath": "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\SampleProject.Resources\\SampleProject.Resources.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.1, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.9.1, )"
+            },
+            "Humanizer.Core": {
+              "target": "Package",
+              "version": "[2.14.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\SampleProject.Domain\\SampleProject.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\SampleProject.Domain\\SampleProject.Domain.csproj",
+        "projectName": "SampleProject.Domain",
+        "projectPath": "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\SampleProject.Domain\\SampleProject.Domain.csproj",
+        "packagesPath": "C:\\Users\\NTG\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\SampleProject.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\NTG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\BuildingBlocks\\BuildingBlocks.Domain\\BuildingBlocks.Domain.csproj": {
+                "projectPath": "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\BuildingBlocks\\BuildingBlocks.Domain\\BuildingBlocks.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Serilog": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\SampleProject.Infrastructure\\SampleProject.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\SampleProject.Infrastructure\\SampleProject.Infrastructure.csproj",
+        "projectName": "SampleProject.Infrastructure",
+        "projectPath": "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\SampleProject.Infrastructure\\SampleProject.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\NTG\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\SampleProject.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\NTG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\BuildingBlocks\\BuildingBlocks.Infrastructure\\BuildingBlocks.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\BuildingBlocks\\BuildingBlocks.Infrastructure\\BuildingBlocks.Infrastructure.csproj"
+              },
+              "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\SampleProject.Domain\\SampleProject.Domain.csproj": {
+                "projectPath": "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\SampleProject.Domain\\SampleProject.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\SampleProject.Resources\\SampleProject.Resources.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\SampleProject.Resources\\SampleProject.Resources.csproj",
+        "projectName": "SampleProject.Resources",
+        "projectPath": "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\SampleProject.Resources\\SampleProject.Resources.csproj",
+        "packagesPath": "C:\\Users\\NTG\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NTG\\Downloads\\SampleProject-master\\SampleProject-master\\SampleProject.Resources\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\NTG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

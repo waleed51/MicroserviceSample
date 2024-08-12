@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+*.v2
+*.vsidx
+*.suo
+/AnotherSampleProject.API/obj
+/BuildingBlocks/BuildingBlocks.API/obj
+/BuildingBlocks/BuildingBlocks.Domain/obj
+/BuildingBlocks/BuildingBlocks.Application/obj
+/BuildingBlocks/BuildingBlocks.Infrastructure/obj
+/obj/Docker
